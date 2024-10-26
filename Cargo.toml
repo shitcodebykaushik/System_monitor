@@ -1,0 +1,11 @@
+[package]
+name = "system_monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+crossterm = "0.28.1"
+sysinfo = "0.26"
+tokio = {version = "1.41.0",features = ["full"]}
+tui = "0.19.0"
