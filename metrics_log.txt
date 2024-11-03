@@ -18,3 +18,10 @@ Timestamp: 2024-10-26 20:53:34, CPU Usage: 2.02%, Memory Usage: 14041204 MB / 16
 Timestamp: 2024-10-26 20:53:39, CPU Usage: 2.39%, Memory Usage: 13947468 MB / 16471564 MB
 Timestamp: 2024-10-26 20:53:44, CPU Usage: 2.01%, Memory Usage: 13919832 MB / 16471564 MB
 Timestamp: 2024-10-26 20:53:49, CPU Usage: 1.75%, Memory Usage: 13944732 MB / 16471564 MB
+Timestamp: 2024-11-03 13:46:59, CPU Usage: 8.36%, Memory Usage: 12353112 MB / 16471564 MB
+Timestamp: 2024-11-03 13:47:04, CPU Usage: 2.25%, Memory Usage: 12388216 MB / 16471564 MB
+Timestamp: 2024-11-03 13:49:56, CPU Usage: 21.75%, Memory Usage: 12075852 MB / 16471564 MB
+Timestamp: 2024-11-03 13:50:07, CPU Usage: 14.54%, Memory Usage: 12026488 MB / 16471564 MB
+Timestamp: 2024-11-03 13:50:12, CPU Usage: 3.12%, Memory Usage: 12050632 MB / 16471564 MB
+Timestamp: 2024-11-03 13:53:13, CPU Usage: 8.42%, Memory Usage: 12409536 MB / 16471564 MB
+Timestamp: 2024-11-03 13:53:18, CPU Usage: 2.82%, Memory Usage: 12420408 MB / 16471564 MB
