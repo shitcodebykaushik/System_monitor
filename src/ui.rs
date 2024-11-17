@@ -6,23 +6,12 @@ use tui::text::{Span, Spans};
 use tui::style::{Style, Color};
 use sysinfo::{System, SystemExt, CpuExt, DiskExt};  // Import DiskExt for disk information
 use std::io::{self, stdout};
-use crossterm::{execute, terminal::{EnterAlternateScreen, LeaveAlternateScreen, enable_raw_mode, disable_raw_mode}};
 
 /// Initializes the terminal with CrosstermBackend
 pub fn init_terminal() -> Result<Terminal<CrosstermBackend<std::io::Stdout>>, io::Error> {
-    let mut stdout = stdout();  // Make stdout mutable
-    enable_raw_mode()?;  // Enables raw mode for capturing all key presses
-    execute!(stdout, EnterAlternateScreen)?;  // Switch to alternate screen
+    let stdout = stdout();
     let backend = CrosstermBackend::new(stdout);
     Terminal::new(backend)
-}
-
-/// Cleans up the terminal, restoring it to its normal state.
-pub fn cleanup_terminal<B: tui::backend::Backend>(terminal: &mut Terminal<B>) -> io::Result<()> {
-    disable_raw_mode()?;  // Disables raw mode
-    let mut stdout = io::stdout();  // Make stdout mutable
-    execute!(stdout, LeaveAlternateScreen)?;  // Exits alternate screen
-    terminal.show_cursor()  // Shows the cursor again
 }
 
 /// Draws the system monitoring UI
